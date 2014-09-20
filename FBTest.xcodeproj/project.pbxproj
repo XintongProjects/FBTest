@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024EA54119CCE69C0008CB71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024EA54019CCE69C0008CB71 /* UIKit.framework */; };
 		02BDEC6A19CBA039004BF8F6 /* index.png in Resources */ = {isa = PBXBuildFile; fileRef = 02BDEC6219CBA039004BF8F6 /* index.png */; };
 		02BDEC6B19CBA039004BF8F6 /* index2.png in Resources */ = {isa = PBXBuildFile; fileRef = 02BDEC6319CBA039004BF8F6 /* index2.png */; };
 		02BDEC6C19CBA039004BF8F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02BDEC6519CBA039004BF8F6 /* Localizable.strings */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024EA54019CCE69C0008CB71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		02BDEC6219CBA039004BF8F6 /* index.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = index.png; sourceTree = "<group>"; };
 		02BDEC6319CBA039004BF8F6 /* index2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = index2.png; sourceTree = "<group>"; };
 		02BDEC6619CBA039004BF8F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024EA54119CCE69C0008CB71 /* UIKit.framework in Frameworks */,
 				02BDEC7419CBA252004BF8F6 /* CFNetwork.framework in Frameworks */,
 				02BDEC7719CBA2CD004BF8F6 /* FacebookSDK.framework in Frameworks */,
 				02BDEC7219CBA249004BF8F6 /* QuartzCore.framework in Frameworks */,
@@ -122,6 +125,7 @@
 		02BDEC7519CBA25C004BF8F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				024EA54019CCE69C0008CB71 /* UIKit.framework */,
 				02BDEC6D19CBA1D8004BF8F6 /* AssetsLibrary.framework */,
 				02BDEC7319CBA251004BF8F6 /* CFNetwork.framework */,
 				02BDEC7619CBA2CD004BF8F6 /* FacebookSDK.framework */,
