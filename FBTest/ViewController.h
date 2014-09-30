@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FacebookSDK/FacebookSDK.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <FBLoginViewDelegate>
+
+- (IBAction)navigateToImagePicker:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *navigateToLoaderButton;
 
 
 @end

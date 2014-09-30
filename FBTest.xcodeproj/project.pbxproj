@@ -16,9 +16,10 @@
 		02BDEC7219CBA249004BF8F6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BDEC7119CBA249004BF8F6 /* QuartzCore.framework */; };
 		02BDEC7419CBA252004BF8F6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BDEC7319CBA251004BF8F6 /* CFNetwork.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		02BDEC7719CBA2CD004BF8F6 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BDEC7619CBA2CD004BF8F6 /* FacebookSDK.framework */; };
+		02D5B8BA19DA111300C838BC /* ImageLoaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D5B8B819DA111300C838BC /* ImageLoaderViewController.m */; };
+		02D5B8F519DA21AB00C838BC /* ImageLoaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D5B8F419DA21AB00C838BC /* ImageLoaderViewController.xib */; };
 		02FA3AA719CB4FF700D531FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FA3AA619CB4FF700D531FD /* main.m */; };
 		02FA3AAA19CB4FF700D531FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FA3AA919CB4FF700D531FD /* AppDelegate.m */; };
-		02FA3AAD19CB4FF700D531FD /* FBTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02FA3AAB19CB4FF700D531FD /* FBTest.xcdatamodeld */; };
 		02FA3AB019CB4FF700D531FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FA3AAF19CB4FF700D531FD /* ViewController.m */; };
 		02FA3AB319CB4FF700D531FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02FA3AB119CB4FF700D531FD /* Main.storyboard */; };
 		02FA3AB519CB4FF700D531FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02FA3AB419CB4FF700D531FD /* Images.xcassets */; };
@@ -48,12 +49,14 @@
 		02BDEC7119CBA249004BF8F6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		02BDEC7319CBA251004BF8F6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		02BDEC7619CBA2CD004BF8F6 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		02D5B8B719DA111300C838BC /* ImageLoaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoaderViewController.h; sourceTree = "<group>"; };
+		02D5B8B819DA111300C838BC /* ImageLoaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoaderViewController.m; sourceTree = "<group>"; };
+		02D5B8F419DA21AB00C838BC /* ImageLoaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageLoaderViewController.xib; sourceTree = "<group>"; };
 		02FA3AA119CB4FF700D531FD /* FBTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02FA3AA519CB4FF700D531FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02FA3AA619CB4FF700D531FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		02FA3AA819CB4FF700D531FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		02FA3AA919CB4FF700D531FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		02FA3AAC19CB4FF700D531FD /* FBTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FBTest.xcdatamodel; sourceTree = "<group>"; };
 		02FA3AAE19CB4FF700D531FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		02FA3AAF19CB4FF700D531FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		02FA3AB219CB4FF700D531FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,6 +121,9 @@
 		02BDEC6919CBA039004BF8F6 /* XIBS */ = {
 			isa = PBXGroup;
 			children = (
+				02D5B8F419DA21AB00C838BC /* ImageLoaderViewController.xib */,
+				02FA3AB619CB4FF700D531FD /* LaunchScreen.xib */,
+				02FA3AB119CB4FF700D531FD /* Main.storyboard */,
 			);
 			path = XIBS;
 			sourceTree = "<group>";
@@ -162,10 +168,9 @@
 				02FA3AA919CB4FF700D531FD /* AppDelegate.m */,
 				02FA3AAE19CB4FF700D531FD /* ViewController.h */,
 				02FA3AAF19CB4FF700D531FD /* ViewController.m */,
-				02FA3AB119CB4FF700D531FD /* Main.storyboard */,
+				02D5B8B719DA111300C838BC /* ImageLoaderViewController.h */,
+				02D5B8B819DA111300C838BC /* ImageLoaderViewController.m */,
 				02FA3AB419CB4FF700D531FD /* Images.xcassets */,
-				02FA3AB619CB4FF700D531FD /* LaunchScreen.xib */,
-				02FA3AAB19CB4FF700D531FD /* FBTest.xcdatamodeld */,
 				02FA3AA419CB4FF700D531FD /* Supporting Files */,
 			);
 			path = FBTest;
@@ -286,6 +291,7 @@
 				02FA3AB319CB4FF700D531FD /* Main.storyboard in Resources */,
 				02FA3AB819CB4FF700D531FD /* LaunchScreen.xib in Resources */,
 				02FA3AB519CB4FF700D531FD /* Images.xcassets in Resources */,
+				02D5B8F519DA21AB00C838BC /* ImageLoaderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,8 +310,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				02FA3AAA19CB4FF700D531FD /* AppDelegate.m in Sources */,
-				02FA3AAD19CB4FF700D531FD /* FBTest.xcdatamodeld in Sources */,
 				02FA3AB019CB4FF700D531FD /* ViewController.m in Sources */,
+				02D5B8BA19DA111300C838BC /* ImageLoaderViewController.m in Sources */,
 				02FA3AA719CB4FF700D531FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +351,7 @@
 				02FA3AB219CB4FF700D531FD /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../FBTest;
 			sourceTree = "<group>";
 		};
 		02FA3AB619CB4FF700D531FD /* LaunchScreen.xib */ = {
@@ -353,6 +360,7 @@
 				02FA3AB719CB4FF700D531FD /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ../../FBTest;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -535,19 +543,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		02FA3AAB19CB4FF700D531FD /* FBTest.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				02FA3AAC19CB4FF700D531FD /* FBTest.xcdatamodel */,
-			);
-			currentVersion = 02FA3AAC19CB4FF700D531FD /* FBTest.xcdatamodel */;
-			path = FBTest.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 02FA3A9919CB4FF700D531FD /* Project object */;
 }
