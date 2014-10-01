@@ -15,7 +15,6 @@
 		02BDEC7019CBA23B004BF8F6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BDEC6F19CBA23B004BF8F6 /* Security.framework */; };
 		02BDEC7219CBA249004BF8F6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BDEC7119CBA249004BF8F6 /* QuartzCore.framework */; };
 		02BDEC7419CBA252004BF8F6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BDEC7319CBA251004BF8F6 /* CFNetwork.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		02BDEC7719CBA2CD004BF8F6 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BDEC7619CBA2CD004BF8F6 /* FacebookSDK.framework */; };
 		02D5B8BA19DA111300C838BC /* ImageLoaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D5B8B819DA111300C838BC /* ImageLoaderViewController.m */; };
 		02D5B8F519DA21AB00C838BC /* ImageLoaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D5B8F419DA21AB00C838BC /* ImageLoaderViewController.xib */; };
 		02FA3AA719CB4FF700D531FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FA3AA619CB4FF700D531FD /* main.m */; };
@@ -25,6 +24,7 @@
 		02FA3AB519CB4FF700D531FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02FA3AB419CB4FF700D531FD /* Images.xcassets */; };
 		02FA3AB819CB4FF700D531FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FA3AB619CB4FF700D531FD /* LaunchScreen.xib */; };
 		02FA3AC419CB4FF700D531FD /* FBTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FA3AC319CB4FF700D531FD /* FBTestTests.m */; };
+		375C081C19DBBB370020925D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BDEC7619CBA2CD004BF8F6 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,9 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				375C081C19DBBB370020925D /* FacebookSDK.framework in Frameworks */,
 				024EA54119CCE69C0008CB71 /* UIKit.framework in Frameworks */,
 				02BDEC7419CBA252004BF8F6 /* CFNetwork.framework in Frameworks */,
-				02BDEC7719CBA2CD004BF8F6 /* FacebookSDK.framework in Frameworks */,
 				02BDEC7219CBA249004BF8F6 /* QuartzCore.framework in Frameworks */,
 				02BDEC7019CBA23B004BF8F6 /* Security.framework in Frameworks */,
 				02BDEC6E19CBA1D8004BF8F6 /* AssetsLibrary.framework in Frameworks */,
@@ -452,6 +452,7 @@
 					"$(inherited)",
 					/Users/cbi/Documents/FacebookSDK,
 					/Users/cbi/Documents/FacebookSDK/FBAudienceNetwork,
+					/Users/cindy/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = FBTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -467,6 +468,7 @@
 					"$(inherited)",
 					/Users/cbi/Documents/FacebookSDK,
 					/Users/cbi/Documents/FacebookSDK/FBAudienceNetwork,
+					/Users/cindy/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = FBTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
